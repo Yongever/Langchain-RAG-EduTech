@@ -2,7 +2,7 @@
 
 The motivation for this the Edu Tech project is driven by the need to streamline how students access information about the educational tehcnology company, ‘Codebasics’. The project aims to eliminate the need for students to manually search through community resources and the website to find answers. 
 
-# Contribution
+## Contribution
 
 Due to frequent updates to the Langchain framework, the system requires ongoing adjustments. A notable change is the rewrite of the RetrievalQA class into a chain using the LangChain Expression Language (LCEL), a more declarative method that simplifies the composition of chains.  This adaptation, along with numerous other minor modifications, positions us well to accommodate future changes. 
 
@@ -10,7 +10,7 @@ In response to the deprecation of Google Palm, I transitioned to OpenAI’s LLM,
 
 The system was last updated on November 26, 2024.
 
-# Architecture
+## Architecture
 
 Embedding a list of frequently asked questions using Hugging Face’s Instructor embeddings into a FAISS vector database. 
 
