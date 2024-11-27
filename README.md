@@ -49,7 +49,6 @@ For more detail on the architecture, refer to https://www.youtube.com/watch?v=Aj
 
     ## The LCEL implementation exposes the internals of what's happening around retrieving (after) 
     
-    formatting documents, and passing them through a prompt to the LLM, but it is more verbose.
     combine_docs_chain = create_stuff_documents_chain(llm, PROMPT)
     chain = create_retrieval_chain(retriever, combine_docs_chain)
 
