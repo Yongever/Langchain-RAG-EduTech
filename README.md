@@ -4,11 +4,11 @@ The motivation for this the Edu Tech project is driven by the need to streamline
 
 # Contribution
 
-Due to frequent updates to the Langchain framework, the system requires ongoing adjustments. A notable change is the rewrite of the RetrievalQA class into a chain using the LangChain Expression Language (LCEL), a more declarative method that simplifies the composition of chains. 
-
-This adaptation, along with numerous other minor modifications, positions us well to accommodate future changes. The system was last updated on November 26, 2024.
+Due to frequent updates to the Langchain framework, the system requires ongoing adjustments. A notable change is the rewrite of the RetrievalQA class into a chain using the LangChain Expression Language (LCEL), a more declarative method that simplifies the composition of chains.  This adaptation, along with numerous other minor modifications, positions us well to accommodate future changes. 
 
 In response to the deprecation of Google Palm, I transitioned to OpenAI’s LLM, as Google’s new model also costs money.
+
+The system was last updated on November 26, 2024.
 
 # Architecture
 
