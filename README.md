@@ -51,5 +51,3 @@ For more detail on the architecture, refer to https://www.youtube.com/watch?v=Aj
     
     combine_docs_chain = create_stuff_documents_chain(llm, PROMPT)
     chain = create_retrieval_chain(retriever, combine_docs_chain)
-
-"""
