@@ -22,7 +22,6 @@ For more detail on the architecture, refer to https://www.youtube.com/watch?v=Aj
 
 
 ## Examples of modified codes.
-"""
     #Legacy code (before)
     chain = RetrievalQA.from_chain_type(llm=llm,
                                         chain_type="stuff",
