@@ -22,7 +22,8 @@ For more detail on the architecture, refer to https://www.youtube.com/watch?v=Aj
 
 
 ## Examples of modified codes.
-    #Legacy code (before)
+    ## Legacy code (before)
+    
     chain = RetrievalQA.from_chain_type(llm=llm,
                                         chain_type="stuff",
                                         retriever=retriever,
@@ -31,7 +32,8 @@ For more detail on the architecture, refer to https://www.youtube.com/watch?v=Aj
                                         chain_type_kwargs={"prompt": PROMPT}
                                         )
 
-    #LCEL without the internals (after)
+    ## LCEL without the internals (after)
+    
     def format_docs(docs):
         return "\n\n".join(doc.page_content for doc in docs)
 
@@ -45,7 +47,8 @@ For more detail on the architecture, refer to https://www.youtube.com/watch?v=Aj
         | StrOutputParser()
     )
 
-    # The LCEL implementation exposes the internals of what's happening around retrieving (after) 
+    ## The LCEL implementation exposes the internals of what's happening around retrieving (after) 
+    
     formatting documents, and passing them through a prompt to the LLM, but it is more verbose.
     combine_docs_chain = create_stuff_documents_chain(llm, PROMPT)
     chain = create_retrieval_chain(retriever, combine_docs_chain)
