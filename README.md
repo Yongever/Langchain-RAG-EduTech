@@ -21,7 +21,7 @@ This ensures that students receive the most relevant answers quickly, enhancing 
 For more detail on the architecture, refer to https://www.youtube.com/watch?v=AjQPRomyd-k.
 
 
-## Examples of the modified codes.
+## Examples of modified codes.
 """
     #Legacy code (before)
     chain = RetrievalQA.from_chain_type(llm=llm,
